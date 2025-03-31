@@ -128,7 +128,7 @@ A API estará rodando em `http://localhost:8080`.
 ### **Frontend**
 #### **Pré-requisitos**
 - Node.js
-- NPM ou Yarn
+- NPM
 
 #### **Passos**
 1. Clone o repositório:
