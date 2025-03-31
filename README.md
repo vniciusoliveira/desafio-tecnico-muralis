@@ -101,7 +101,7 @@ src/
 #### **Passos**
 1. Clone o repositório:
    ```sh
-   git clone <url-do-repositorio>
+   git clone <https://github.com/vniciusoliveira/desafio-tecnico-muralis.git>
    ```
 2. Acesse a pasta do backend:
    ```sh
@@ -133,7 +133,7 @@ A API estará rodando em `http://localhost:8080`.
 #### **Passos**
 1. Clone o repositório:
    ```sh
-   git clone <url-do-repositorio>
+   git clone <https://github.com/vniciusoliveira/desafio-tecnico-muralis.git>
    ```
 2. Acesse a pasta do frontend:
    ```sh
