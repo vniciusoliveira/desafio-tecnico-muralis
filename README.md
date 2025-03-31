@@ -8,7 +8,7 @@ A Agenda Digital é uma solução completa para o gerenciamento de clientes e se
 ## 🛠️ Tecnologias Utilizadas
 ### **Backend:**
 - ![Java](https://img.shields.io/badge/Java-17-red?logo=openjdk)
-- ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.1.5-green?logo=spring)
+- ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.4.4-green?logo=spring)
 - ![Hibernate](https://img.shields.io/badge/Hibernate-6.2-blue?logo=hibernate)
 - ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-purple?logo=postgresql)
 - ![Lombok](https://img.shields.io/badge/Lombok-1.18.26-pink?logo=lombok)
