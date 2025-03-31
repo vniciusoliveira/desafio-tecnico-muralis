@@ -1,0 +1,130 @@
+.editar-contato-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.editar-contato-container h2 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.editar-contato-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #495057;
+}
+
+.form-group select,
+.form-group input {
+  padding: 0.8rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-group select:focus,
+.form-group input:focus {
+  border-color: #80bdff;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-group select:disabled,
+.form-group input:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+.botoes-acoes {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.botoes-acoes button {
+  flex: 1;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-salvar {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.btn-salvar:hover {
+  background-color: #27ae60;
+}
+
+.btn-salvar:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.btn-cancelar {
+  background-color: #f8f9fa;
+  color: #495057;
+  border: 1px solid #ced4da !important;
+}
+
+.btn-cancelar:hover {
+  background-color: #e9ecef;
+}
+
+.btn-cancelar:disabled {
+  background-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+.mensagem-erro {
+  color: #e74c3c;
+  background-color: #fdecea;
+  padding: 0.8rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  text-align: center;
+  border: 1px solid #ef9a9a;
+}
+
+.mensagem-sucesso {
+  color: #2e7d32;
+  background-color: #e8f5e9;
+  padding: 0.8rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  text-align: center;
+  border: 1px solid #a5d6a7;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .editar-contato-container {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  .botoes-acoes {
+    flex-direction: column;
+  }
+}
