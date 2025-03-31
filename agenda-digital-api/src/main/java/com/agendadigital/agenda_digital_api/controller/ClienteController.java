@@ -74,6 +74,16 @@ public class ClienteController {
 
         return clienteRepository.findById(id)
                 .map(cliente -> {
+                    // Verifica se o CPF está sendo alterado
+                    if (!cliente.getCpf().equals(clienteAtualizado.getCpf())) {
+                        // Se está alterando, verifica se o novo CPF já existe
+                        if (clienteRepository.existsByCpf(clienteAtualizado.getCpf())) {
+                            throw new ResponseStatusException(
+                                    HttpStatus.BAD_REQUEST, "Novo CPF já está cadastrado");
+                        }
+                        cliente.setCpf(clienteAtualizado.getCpf());
+                    }
+
                     cliente.setNome(clienteAtualizado.getNome());
                     cliente.setDataNascimento(clienteAtualizado.getDataNascimento());
                     cliente.setEndereco(clienteAtualizado.getEndereco());
